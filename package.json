@@ -1,0 +1,33 @@
+{
+  "name": "clientmappingdata",
+  "version": "1.0.0",
+  "description": "This document contains details regarding various curl commands used for accessing different data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developnk/clientmappingData.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developnk/clientmappingData/issues"
+  },
+  "homepage": "https://github.com/developnk/clientmappingData#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "clientmappingdata": "file:",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "router": "^1.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
